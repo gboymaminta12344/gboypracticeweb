@@ -1,0 +1,148 @@
+
+html,body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.nav-link,
+.navbar-brand{
+    color:white;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    color:palevioletred;
+}
+.navbar-brand:hover{
+    color:palevioletred;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,16,166,1) 38%, rgba(88,64,89,1) 100%);
+}
+
+.page-header{
+    min-height: 100%;
+    width: 100%;
+    font-size: 1.25rem;
+    color:black;
+   
+    
+}
+
+
+#first-text h1{
+    margin-top: 5rem;
+    padding: 1rem;
+    text-align: justify;
+}  
+
+#first-text p{
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+#first-text button{
+    color: #fff;
+    font-size: 24px
+}
+#first-image{
+    margin-top: 5rem;
+    
+}
+
+
+
+#about{
+    min-height: 100%;
+    width: 100%;
+    font-size: 1.25rem;
+    color:black;
+}
+#about h2{
+     margin-top: 200px;
+
+}
+#services{
+    background-color: aqua;
+    min-height: 100%;
+    width: 100%;
+    font-size: 1.25rem;
+    color:black;
+}
+
+#first-image img{
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 90%;
+    height: auto;
+    
+}
+
+#contact{
+    min-height: 100%;
+    width: 100%;
+    color:black;
+}
+#contact h2{
+    margin-top: 200px;
+}
+#number{
+    padding: 2rem;
+    border: #c7ecee solid;
+    border-radius: 5px;
+}
+#email{
+
+    padding: 2rem;
+    border: #c7ecee solid;
+    border-radius: 5px;
+
+}
+
+/** style on scroll **/
+.nav-container.scroll {
+    background: darkturquoise;
+}
+.nav-container.scroll a {
+    color: #fff;
+}
+#link-about.scroll{
+    color:palevioletred;
+}
+
+#link-service.scroll{
+    color:palevioletred;
+}
+
+#link-contact.scroll{
+    color:palevioletred;
+}
+
+
+
+
+
+
+
+    
+
+ 
+
+ 
+    
+
+
+
+ 
+  
